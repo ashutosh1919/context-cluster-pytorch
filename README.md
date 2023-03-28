@@ -26,7 +26,7 @@ Above command also clones the original [Context-Cluster](https://github.com/ma-x
 
 We have already setup bash scripts for you which will automatically download the dataset for you and will start the training. `train.sh` contains the code which will download the training & validation data to `dataset` directory and will start training the model.
 
-These bash scripts are compatible for Paperspace workspace. But if you are running it elsewhere, then you will need to replace base path of the paths mentioned in these task files.
+These bash script is compatible to the Paperspace workspace. But if you are running it elsewhere, then you will need to replace base path of the paths mentioned in this script `train.sh`.
 
 Before you start the training, you can check & customize all the model arguments in `args.yaml` file. Especially, you may want to change the argument `model` to one of the following: `coc_tiny`, `coc_tiny_plain`, `coc_small`, `coc_medium`. These models differ by the number of layers (stages).
 
