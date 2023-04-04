@@ -1,4 +1,5 @@
 # Extra
+checkpoints/*.pth.tar
 flagged
 context_cluster
 

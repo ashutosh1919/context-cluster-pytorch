@@ -1,6 +1,6 @@
 # Context-Cluster
 
-Context-Cluster is entirely new paradigm that considers image as Set of Points and generates representations. This repository contains ready-to train models & visualize clusters over images. This repository utilizes original [Context-Cluster](https://github.com/ma-xu/Context-Cluster) ([openreview](https://openreview.net/pdf?id=awnvqZja69)) implementation. Moreover, we have created helper scripts to train the models and Gradio app to generate cluster visualization for any image.
+Context-Cluster is entirely new paradigm that considers image as Set of Points and generates representations. This repository contains ready-to train models & visualize clusters over images. This repository utilizes original [Context-Cluster](https://github.com/ma-xu/Context-Cluster) ([arxiv](https://arxiv.org/abs/2303.01494)) implementation. Moreover, we have created helper scripts to train the models and Gradio app to generate cluster visualization for any image.
 
 
 ## Run in a Free GPU powered Gradient Notebook
@@ -75,16 +75,16 @@ Hurray! 🎉🎉🎉  We have created demo to visualize clusters over any image 
 
 ## Reference
 
-Image as Set of Points -- https://openreview.net/forum?id=awnvqZja69
+Image as Set of Points -- https://arxiv.org/abs/2303.01494
 
 ```
-@inproceedings{
-ma2023image,
-title={Image as Set of Points},
-author={Xu Ma and Yuqian Zhou and Huan Wang and Can Qin and Bin Sun and Chang Liu and Yun Fu},
-booktitle={The Eleventh International Conference on Learning Representations },
-year={2023},
-url={https://openreview.net/forum?id=awnvqZja69}
+@misc{ma2023image,
+      title={Image as Set of Points}, 
+      author={Xu Ma and Yuqian Zhou and Huan Wang and Can Qin and Bin Sun and Chang Liu and Yun Fu},
+      year={2023},
+      eprint={2303.01494},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
