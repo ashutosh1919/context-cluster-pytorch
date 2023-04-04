@@ -22,11 +22,11 @@ Above command also clones the original [Context-Cluster](https://github.com/ma-x
 
 ## Downloading datasets & Start training (Optional)
 
-`datasets` directory in this repo contains necessary scripts to download the data and make it ready for training. Currently, this repository supports downloading [ImageNet](https://www.image-net.org/) dataset that original authors used.
+`dataset` directory in this repo contains necessary scripts to download the data and make it ready for training. Currently, this repository supports downloading [ImageNet](https://www.image-net.org/) dataset that original authors used.
 
 We have already setup bash scripts for you which will automatically download the dataset for you and will start the training. `train.sh` contains the code which will download the training & validation data to `dataset` directory and will start training the model.
 
-These bash script is compatible to the Paperspace workspace. But if you are running it elsewhere, then you will need to replace base path of the paths mentioned in this script `train.sh`.
+This bash script is compatible to the Paperspace workspace. But if you are running it elsewhere, then you will need to replace base path of the paths mentioned in this script `train.sh`.
 
 Before you start the training, you can check & customize all the model arguments in `args.yaml` file. Especially, you may want to change the argument `model` to one of the following: `coc_tiny`, `coc_tiny_plain`, `coc_small`, `coc_medium`. These models differ by the number of layers (stages).
 
@@ -53,7 +53,7 @@ bash checkpoints/fetch_pretrained_checkpoints.sh
 
 Note that the latest version of code only has the pretrained checkpoints for `coc_tiny_plain` model type. But you can add the code in `fetch_pretrained_checkpoints.sh` whenever the new checkpoints for other model types are available in [original repository](https://github.com/ma-xu/Context-Cluster).
 
-Now, we are ready to launch Gradio demo. Run followling command to launch demo:
+Now, we are ready to launch Gradio demo. Run following command to launch demo:
 
 ```bash
 gradio app.py
