@@ -1,6 +1,8 @@
 # Context-Cluster
 
-Context-Cluster is entirely new paradigm that considers image as Set of Points and generates representations. This repository contains ready-to train models & visualize clusters over images. This repository utilizes original [Context-Cluster](https://github.com/ma-xu/Context-Cluster) ([arxiv](https://arxiv.org/abs/2303.01494)) implementation. Moreover, we have created helper scripts to train the models and Gradio app to generate cluster visualization for any image.
+Context-Cluster is entirely new paradigm that considers image as Set of Points and generates representations. This repository contains ready-to train models & visualize clusters over images. This repository utilizes original [Context-Cluster](https://github.com/ma-xu/Context-Cluster) ([arxiv](https://arxiv.org/abs/2303.01494)) implementation. Moreover, we have created helper scripts to train the models and Gradio app to generate cluster visualization for any image.  
+
+If you want to understand Context-Cluster in detail, check out [this blog on Paperspace](https://blog.paperspace.com/context-cluster/).
 
 
 ## Run in a Free GPU powered Gradient Notebook
